@@ -1,0 +1,144 @@
+{
+  "minecraft": {
+    "version": "1.20.4",
+    "modLoaders": [
+      {
+        "id": "forge-49.2.0",
+        "primary": true
+      }
+    ]
+  },
+  "manifestType": "minecraftModpack",
+  "manifestVersion": 1,
+  "name": "TrolosServer",
+  "version": "1.00.2",
+  "author": "",
+  "files": [
+    {
+      "projectID": 623764,
+      "fileID": 5285655,
+      "required": true
+    },
+    {
+      "projectID": 502372,
+      "fileID": 6502692,
+      "required": true
+    },
+    {
+      "projectID": 419699,
+      "fileID": 5173989,
+      "required": true
+    },
+    {
+      "projectID": 352039,
+      "fileID": 6494472,
+      "required": true
+    },
+    {
+      "projectID": 263420,
+      "fileID": 6515032,
+      "required": true
+    },
+    {
+      "projectID": 453925,
+      "fileID": 6363158,
+      "required": true
+    },
+    {
+      "projectID": 930232,
+      "fileID": 4975865,
+      "required": true
+    },
+    {
+      "projectID": 438116,
+      "fileID": 4972992,
+      "required": true
+    },
+    {
+      "projectID": 416089,
+      "fileID": 5716557,
+      "required": true
+    },
+    {
+      "projectID": 351725,
+      "fileID": 6528756,
+      "required": true
+    },
+    {
+      "projectID": 367706,
+      "fileID": 5823948,
+      "required": true
+    },
+    {
+      "projectID": 243707,
+      "fileID": 5520561,
+      "required": true
+    },
+    {
+      "projectID": 238222,
+      "fileID": 5846847,
+      "required": true
+    },
+    {
+      "projectID": 227874,
+      "fileID": 4966237,
+      "required": true
+    },
+    {
+      "projectID": 359540,
+      "fileID": 5589881,
+      "required": true
+    },
+    {
+      "projectID": 378646,
+      "fileID": 6146382,
+      "required": true
+    },
+    {
+      "projectID": 400933,
+      "fileID": 5977660,
+      "required": true
+    },
+    {
+      "projectID": 363569,
+      "fileID": 6732757,
+      "required": true
+    },
+    {
+      "projectID": 629153,
+      "fileID": 6244141,
+      "required": true
+    },
+    {
+      "projectID": 938643,
+      "fileID": 5109692,
+      "required": true
+    },
+    {
+      "projectID": 410295,
+      "fileID": 5306874,
+      "required": true
+    },
+    {
+      "projectID": 455982,
+      "fileID": 5568741,
+      "required": true
+    },
+    {
+      "projectID": 898092,
+      "fileID": 5213027,
+      "required": true
+    },
+    {
+      "projectID": 1119394,
+      "fileID": 6155186,
+      "required": true
+    },
+    {
+      "projectID": 615134,
+      "fileID": 6066751,
+      "required": true
+    }
+  ],
+  "overrides": "overrides"
+}
