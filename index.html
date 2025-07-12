@@ -1,28 +1,19 @@
-# Generación de index.html para redirigir/descargar automáticamente manifest.json
-html_content = """<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="es">
 <head>
   <meta charset="UTF-8">
-  <title>Descargando manifest.json</title>
+  <title>Descargando main.zip</title>
 </head>
 <body>
-  <!-- Enlace para descargar el manifest -->
-  <a id="dl" href="manifest.json" download="manifest.json"></a>
+  <!-- Enlace para descargar el archivo main.zip -->
+  <a id="dl" href="main.zip" download="main.zip"></a>
   <!-- Disparar click automático para iniciar la descarga -->
   <script>
     document.getElementById('dl').click();
   </script>
   <noscript>
     <!-- Fallback: redirección si JavaScript está deshabilitado -->
-    <meta http-equiv="refresh" content="0; url=manifest.json">
+    <meta http-equiv="refresh" content="0; url=main.zip">
   </noscript>
 </body>
 </html>
-"""
-
-# Guardar el archivo en el directorio
-file_path = "/mnt/data/index.html"
-with open(file_path, "w", encoding="utf-8") as f:
-    f.write(html_content)
-
-file_path
